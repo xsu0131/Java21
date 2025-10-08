@@ -24,6 +24,7 @@ public class Student implements Comparable<Student>
         this.name = name;
     }
 
+    // interface must be implemented by class comparing for COMPARABLE
     @Override
     public int compareTo(Student other)
     {

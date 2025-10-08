@@ -12,7 +12,8 @@ public class DynamicIntArray
         size = 0;
     }
 
-    public void add(int value) {
+    public void add(int value) 
+    {
         if (size == data.length) 
         {
             // make room

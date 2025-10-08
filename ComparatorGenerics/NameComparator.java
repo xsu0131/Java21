@@ -13,6 +13,8 @@ import java.util.Comparator;
 
 public class NameComparator implements Comparator<StudentC> 
 {
+    // Interface doesn't need to be implemented by class comparing
+
     // The compiler replaces T with studentC and enforces type safety
     @Override
     public int compare(StudentC s1, StudentC s2) 
