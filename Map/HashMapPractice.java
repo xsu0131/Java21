@@ -26,5 +26,12 @@ public class HashMapPractice
         // iteration using .forEach
         map.forEach((key, value) -> System.out.println(key + " = " + value));
 
+        HashMap<Integer, String> map2 = new HashMap<>(4, 0.75f);
+
+        for (int i = 1; i <= 10; i++) {
+            map2.put(i, "Val" + i);
+            System.out.println("Added: " + i + ", Size: " + map2.size());
+        }
+
     }
 }
